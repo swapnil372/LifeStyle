@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="icon" href="lifestyle icon.ico" type="image/x-icon">
+    <script src="script.js">
+         
+    </script>
+    <title>LifeStyle</title>
+</head>
+
+<body>
+    <div class="main-container">
+    <header class="header">
+        <h1>LifeStyle</h1>
+    </header>
+
+    <main>
+    <div class="top">
+    <section class="today">
+        <h2>📋My Tasks</h2>
+        <form action="" method="GET">
+            <div class="todaytask" id="task-container">
+                <p id="notasks">No tasks to show</p>
+            </div>
+        <br>
+        <div class="control-another">
+            <input type="button" id="addtask" value="Add Task">
+            <input type="button" id="clear" value="Clear List">
+        </div>
+        
+        </form>
+        <br>
+    </section>
+
+    <section class="pomodoro">
+        <h2>⏳Pomodoro Timer</h2>
+        <form action="">
+        <div class="time">
+            <input id="minute" type="number" min="5" max="60" value="25">
+            <input id="second" type="number" min="0" max="59" value="00">
+        </div>
+        <div class="control">
+            <input type="button" id="start" class="starter" value="Start">
+            <input type="button" id="reset" value="Reset">    
+        </div>
+        </form>
+    </section>
+
+    </div>
+
+    <div class="bottom">
+    <section class="notes">
+        <h2>✍️What's on your mind?</h2>
+        <form class="textarea">
+            <input type="hidden" name="notesubmit" value="1">
+            <textarea maxlength="200" name="note" id="note"></textarea>
+            <br>
+            <button type="submit" class="save">Save</button>
+        </form>
+    </section>
+
+    <section class="quote">
+        <h2>✨Words to Inspire</h2>
+        <p class="thequote" id="thethequote"></p>
+    </section>
+
+    </div>
+
+    <footer>
+        <nav class="navbar">
+            Made with ❤️ by Swapnil
+        </nav>
+    </footer>
+    </main>
+
+    
+    </div>
+</body>
+</html>
