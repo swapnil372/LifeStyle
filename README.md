@@ -1,5 +1,5 @@
 # LIFESTYLE
-#### Video Demo: 
+#### Video Demo: https://www.youtube.com/watch?v=X-2TQtSBYkc
 #### Description:
 The LifeStyle website offers the user with features, like adding options for tasks, a pomodoro timer, and small quick note and a motivational quote.
 
